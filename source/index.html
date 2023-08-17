@@ -4,10 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Halyk Bank</title>
-  <meta
-    name="Halyk банк продолжает свою миссию предоставления широкого спектра финансовых услуг в Казахстане и других странах в соответствии с международными стандартами. Они стремятся обеспечить сохранность, эффективное размещение и увеличение средств клиентов и акционеров во всех сегментах финансового рынка, включая банковское дело, страхование, ценные бумаги и лизинг"
-    content="Title">
+  <title>Project X</title>
+  <meta name="description" content="Project X - среда для заработка без ограничений. Новое творение Илона Маска">
   <link rel="stylesheet" href="css/style.min.css">
   <!-- https://realfavicongenerator.net/ -->
   <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon.png">
@@ -20,236 +18,37 @@
 </head>
 
 <body class="page-body">
-  <header class="page-header container">
-    <picture>
-      <source type="image/webp" srcset="img/img/logo.webp">
-      <img width="182" height="64" class="page-header__img" src="img/img/logo.png" alt="Логотип Halyk Bank">
-    </picture>
-    <nav class="main-nav main-nav--closed main-nav--nojs">
-      <ul class="main-nav__list">
-        <li class="main-nav__item main-nav__item--shadow"></li>
-        <li class="main-nav__item"><a href="#bank">Преимущества</a></li>
-        <li class="main-nav__item"><a href="#calculator">Калькулятор</a></li>
-        <li class="main-nav__item"><a href="#about-bank">Halyk Bank</a></li>
-        <li class="main-nav__item"><a href="#license">Лицензия</a></li>
-        <li class="main-nav__item"><a href="#start">Инвестирование</a></li>
-        <li class="main-nav__item"><a href="#review">Отзывы</a></li>
-      </ul>
-      <a class="btn mobile-only" href="#leadform1">Присоединиться к проекту</a>
-      <button class="main-nav__toggle" type="button">
-        <span class="main-nav__open-btn-text visually-hidden">Mеню</span>
-      </button>
-    </nav>
-  </header>
   <main>
     <section class="promo">
+      <picture>
+        <source type="image/webp" srcset="img/img/logo.webp">
+        <img width="198" height="47" class="promo__logo" src="img/img/logo.png" alt="Project X">
+      </picture>
       <div class="promo__wrapper">
-        <h1 class="promo__heading heading">Получай дивиденды от <span>150&nbsp;000&nbsp;₸</span> в неделю</h1>
-        <p class="promo__about">Стань одним из первых инвесторов, приобретающих акции самого крупного банка в
-          Казахстане.</p>
+        <h1 class="promo__heading">Project X - среда для заработка без ограничений. Новое творение Илона Маска</h1>
+        <p class="promo__about">Станьте участником проекта и зарабатывайте от&nbsp;4500&nbsp;€ в&nbsp;неделю</p>
         <form action="#" class="form" method="POST" id="leadform1">
-          <input type="text" name="name" id="name" placeholder="Имя Фамилия">
-          <input type="email" name="email" id="email" placeholder="Эл. адрес">
-          <input type="tel" name="phone1" placeholder="" id="phone1" />
+          <input class="form__input form__input--name" type="text" name="name" id="name" placeholder="Имя Фамилия">
+          <input class="form__input form__input--email" type="email" name="email" id="email" placeholder="Эл. адрес">
+          <input class="form__input form__input--phone" type="tel" name="phone1" placeholder="" id="phone1" />
           <input id="realPhone1" class="hidden-phone" type="hidden" name="phone" value="" />
           <input type="hidden" name="currency" value="usd">
           <input id="country1" type="hidden" name="country" value="ru">
           <input type="hidden" name="comment" class="comment" value="">
           <input type="hidden" name="campaign_name" value="">
           <button class="btn submit_btn" type="submit">
-            <span>Отправить заявку</span>
+            <span class="btn__arrow">
+              <svg class="btn__icon" width="10" height="17">
+                <use xlink:href="img/sprite.svg#arrow"></use>
+              </svg>
+            </span>
+            <span>присоединиться к проекту</span>
           </button>
           <div class="form_message error inactive"
             style="margin:15px 0;background-color: #ffd4d4;border: 2px dashed #ce0909;border-radius: 10px;padding: 20px;max-width: 350px;">
           </div>
         </form>
       </div>
-
-      <div class="promo__wrapper  promo__wrapper--mw53">
-        <div class="promo__video-bcg">
-          <div class="promo__video">
-            <button type="button" id="button-play">
-              <svg width="38" height="44">
-                <use xlink:href="img/sprite.svg#play"></use>
-              </svg>
-            </button>
-            <div style="padding:56.25% 0 0 0;position:relative;">
-              <iframe
-                src="https://player.vimeo.com/video/833805934?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1&"
-                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Yandex_land">
-              </iframe>
-            </div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bank container" id="bank">
-      <p class="bank__about">Halyk банк продолжает свою миссию предоставления широкого спектра финансовых услуг в
-        Казахстане и других странах в соответствии с международными стандартами. Они стремятся обеспечить сохранность,
-        эффективное размещение и увеличение средств клиентов и акционеров во всех сегментах финансового рынка, включая
-        банковское дело, страхование, ценные бумаги и лизинг</p>
-      <ul class="bank__benefits">
-        <li class="bank__item bank__item--person">
-          <p>Надежность и клиентоориентированность</p>
-        </li>
-        <li class="bank__item bank__item--check">
-          <p>Более 99 лет в финансовом секторе</p>
-        </li>
-        <li class="bank__item bank__item--laptop">
-          <p>С вами будуть работать только профессионалы своего дела с многолетним стажем</p>
-        </li>
-        <li class="bank__item bank__item--dollar">
-          <p>Крупнейший банк Казахстана успешно работающий на благо своих клиентов</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="calculator container" id="calculator">
-      <div class="calculator__wrapper">
-        <h2 class="profit__heading heading heading--small">Калькулятор</h2>
-        <p class="calculator__about">Просчитайте ваш доход всего за пару минут</p>
-      </div>
-
-      <div class="calculator__wrapper">
-        <div class="profit__wrapper">
-          <div class="calculator__range">
-            <div class="profit__sum">
-              <label class="">Сколько хотите заработать?</label>
-              <h3 class="" id="calcResult"></h3>
-            </div>
-            <input type="text" class="js-range-slider" name="my_range" value="150" />
-            <p>Выберите срок инвестирования</p>
-            <input type="text" class="js-range-slider2" name="my_range2" value="150" />
-            <div class="profit__amount">
-              <label class="">Сумма инвестирования</label>
-              <span class="heading" id="profitValue">50000 ₸</span>
-            </div>
-            <a href="#leadform1" class="btn">Отправить заявку</a>
-            <p class="calculator__att">Предварительный расчет. Не является публичной офертой</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="about-bank container" id="about-bank">
-      <h2 class="heading heading--small">Про Halyk банк</h2>
-      <p class="about-bank__about about-bank__about--pr220">Наша разработанная командой технология автотрейдинга
-        позволяет зарабатывать на акциях, индексах. Программа успешно внедрена в 12 лицензированных брокерах СНГ и
-        Европы. Она основана на блокчейне Halyk банка, специально оптимизированном для быстрой торговли. С
-        использованием искусственного интеллекта и анализа котировок опционов на ведущих биржах мира, алгоритм
-        обеспечивает успешные сделки в 98,3% случаев.</p>
-      <ul class="about-bank__infos">
-        <li class="about-bank__item">
-          <picture>
-            <source type="image/webp" srcset="img/img/desk.webp">
-            <img width="545" height="340" class="about-bank__img" src="img/img/desk.jpg" alt="График на планшете">
-          </picture>
-          <div class="about-bank__item-wrapper">
-            <h3 class="about-bank__sub-heading">Информируем, что с 15&nbsp;июня 2023 года по 31&nbsp;июля 2023 года на
-              AIX будет проходить размещение выпуска долларовых дисконтных облигаций АО «Home Credit Bank»</h3>
-            <p class="about-bank__about">AIX (Astana International Exchange) является финансовой биржей, расположенной в
-              Астане, Казахстан. Она предоставляет инвесторам возможность торговать различными финансовыми
-              инструментами, включая акции, облигации и другие ценные бумаги.</p>
-            <a href="#leadform1" class="btn">Купить облигации</a>
-          </div>
-        </li>
-
-        <li class="about-bank__item about-bank__item--reverse">
-          <picture>
-            <source type="image/webp" srcset="img/img/forbes.webp">
-            <img width="545" height="340" class="about-bank__img" src="img/img/forbes.jpg" alt="Forbes">
-          </picture>
-          <div class="about-bank__item-wrapper">
-            <h3 class="about-bank__sub-heading">Журнал “Forbes” (Forbes Global 2000)</h3>
-            <p class="about-bank__about">Halyk банк- второй среди банков СНГ и первый среди казахстанских компаний по
-              объему чистой прибыли</p>
-            <a href="#leadform1" class="btn">Стать частью проекта</a>
-          </div>
-        </li>
-
-        <li class="about-bank__item">
-          <picture>
-            <source type="image/webp" srcset="img/img/ceo.webp">
-            <img width="545" height="340" class="about-bank__img" src="img/img/ceo.jpg"
-              alt="CEO на фоне постера с логотипом банка">
-          </picture>
-          <div class="about-bank__item-wrapper">
-            <h3 class="about-bank__sub-heading">МФО KMF разместила 2-й выпуск облигаций общим объемом 10 млрд тенге</h3>
-            <p class="about-bank__about">16 мая 2023 года Микрофинансовая организация «КMF (КМФ)» (далее – «KMF»)
-              успешно провела первичное размещение второго выпуска облигаций на сумму 10 млрд тенге сроком на 1 год.
-              Финансовое консультирование и андеррайтинг данного размещения было осуществлено АО «Halyk Finance».</p>
-            <a href="#leadform1" class="btn">Купить облигации</a>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <section class="license container" id="license">
-      <div class="license__gradient"></div>
-      <div class="license__wrapper">
-        <h2 class="license__heading heading">Лицензия на использование Halyk Bank в&nbsp;биржевой деятельности
-        </h2>
-        <picture>
-          <source type="image/webp" srcset="img/img/license.webp">
-          <img class="license__img" src="img/img/license.jpg" height="389" width="275" alt="Лицензия">
-        </picture>
-
-        <button class="btn" data-open-modal>
-          <svg width="74" height="56">
-            <use xlink:href="img/sprite.svg#arrow"></use>
-          </svg>
-          <span>Развернуть лицензию</span>
-        </button>
-
-        <dialog data-modal class="license__dialog">
-          <div class="license__dialog-wrapper">
-            <picture>
-              <source type="image/webp" srcset="img/img/license.webp">
-              <img class="license__img" src="img/img/license.jpg" height="942" width="666" alt="Лицензия">
-            </picture>
-            <button data-close-modal><span class="main-nav__open-btn-text visually-hidden">Закрыть</span></button>
-          </div>
-        </dialog>
-      </div>
-    </section>
-
-    <section class="start container" id="start">
-      <div class="start__info-wrapper">
-        <h2 class="start__heading heading">Как начать инвестировать вместе с Halyk банк?</h2>
-        <div class="start__info">
-          <div class="start__text-wrapper">
-            <div class="start__about start__about--top start__about--active">
-              <span class="start__step">Шаг 1</span>
-              <p class="start__text">Для начала инвестирования достаточно всего лишь оставить заявку на сайте</p>
-              <span class="start__circle start__circle--top"></span>
-            </div>
-            <div class="start__about start__about--center">
-              <span class="start__step">Шаг 2</span>
-              <p class="start__text">После того, как Вы оставили заявку на сайте с вами свяжется консультант и ответит
-                на все вопросы</p>
-              <span class="start__circle start__circle--middle"></span>
-            </div>
-            <div class="start__about start__about--center">
-              <span class="start__step">Шаг 3</span>
-              <p class="start__text">Сделать минамальный депозит в размере 65 000 ₸</p>
-              <span class="start__circle start__circle--middle"></span>
-            </div>
-            <div class="start__about start__about--end">
-              <span class="start__step">Шаг 4</span>
-              <p class="start__text">Далее, остается лишь ждать выплат от программы</p>
-              <span class="start__circle start__circle--bottom"></span>
-            </div>
-          </div>
-          <picture>
-            <source type="image/webp" srcset="img/img/flagsontable.webp">
-            <img class="start__img" src="img/img/flagsontable.jpg" height="400" width="600" alt="Флажки">
-          </picture>
-        </div>
-      </div>
-
     </section>
 
     <section class="review container" id="review">
@@ -310,7 +109,8 @@
 
     <section class="come-on container">
       <h2 class="come-on__heading heading">Получай дивиденды от 150 000 ₸ в неделю</h2>
-      <p class="come-on__about">Стань одним из первых инвесторов, приобретающих акции самого крупного банка в Казахстане.</p>
+      <p class="come-on__about">Стань одним из первых инвесторов, приобретающих акции самого крупного банка в
+        Казахстане.</p>
       <form action="#" class="form form--bottom" method="POST" id="leadform1">
         <input type="text" name="name" id="name" placeholder="Имя Фамилия">
         <input type="email" name="email" id="email" placeholder="Эл. адрес">
@@ -352,7 +152,6 @@
     </nav>
   </footer>
   <script src="js/jquery.min.js"></script>
-  <script src="js/ion.rangeSlider.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/script.js"></script>
 </body>

@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  background:  $page-bcg;
 }
 
 h1,
@@ -51,22 +52,35 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 250px;
+  gap: 15px;
   padding: 10px;
   color: $basic-white;
   background-color: $main-color;
-  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  border-radius: 10px;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 40px;
   border: none;
 
   &:hover {
-    background-color: $btn-hover;
+    box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.50);
   }
 
   &:active {
     opacity: 0.8;
+  }
+
+  .btn__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    fill: none;
+    background: $basic-white;
+    border-radius: 50%;
   }
 }
 
