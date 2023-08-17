@@ -18,10 +18,10 @@
   font-size: 48px;
   font-weight: 400;
   max-width: 60%;
-  margin-bottom: 400px;
 
   @media (max-width: $tablet-width) {
     max-width: unset;
+    margin-bottom: 400px;
     font-size: 36px;
   }
 }

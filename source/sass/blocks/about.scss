@@ -1,0 +1,68 @@
+.about {
+  display: flex;
+  gap: 150px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  background: no-repeat url("../img/bcg/about-bcg.webp");
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    background: none;
+  }
+}
+
+.about__wrapper {
+  @media (max-width: $tablet-width) {
+    padding: 30px 20px;
+    background: no-repeat url("../img/bcg/about-wrapper-bcg-mob.webp");
+    background-size: cover;
+  }
+}
+
+.abuot__text {
+  max-width: 572px;
+  margin-bottom: 87px;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+
+  &:last-child {
+    margin-left: 80px;
+  }
+
+  span {
+    color: $main-color;
+  }
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.about__img {
+  height: 100%;
+  width: auto;
+
+  @media (max-width: $tablet-width) {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.about__img-wrapper {
+  @media (max-width: $tablet-width) {
+    background: $page-bcg no-repeat url("../img/bcg/about-img-bcg-mob.webp");
+
+    picture {
+      display: flex;
+    }
+  }
+}
