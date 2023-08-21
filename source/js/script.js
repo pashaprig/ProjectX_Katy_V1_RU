@@ -17,7 +17,8 @@ class App {
     $(function () {
       $('.slider').slick({
         arrows: false,
-        slidesToShow: 3,
+        slidesToShow: 2,
+        dots: true,
         responsive: [
           {
             breakpoint: 1024,

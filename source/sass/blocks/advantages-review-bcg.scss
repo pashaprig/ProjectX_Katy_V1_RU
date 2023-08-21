@@ -1,0 +1,11 @@
+.advantages-review-bcg {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  background: no-repeat 100% 40% url("../img/bcg/advantages-review-bcg.webp");
+
+  @media (max-width: $tablet-width) {
+    gap: 60px;
+    background: no-repeat 100% 40% url("../img/bcg/advantages-review-bcg-mob.webp");
+  }
+}
