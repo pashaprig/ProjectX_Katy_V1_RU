@@ -3,15 +3,15 @@
 class App {
   init() {
     this.initSlider();
-    // this.afterVideoPlay();
-    // this.onButtonPlay();
+    this.afterVideoPlay();
+    this.onButtonPlay();
   }
 
-  // constructor() {
-  //   this.iframe = document.querySelector('iframe');
-  //   this.player = new Vimeo.Player(this.iframe);
-  //   this.btnPlay = document.querySelector('#button-play')
-  // }
+  constructor() {
+    this.iframe = document.querySelector('iframe');
+    this.player = new Vimeo.Player(this.iframe);
+    this.btnPlay = document.querySelector('#button-play')
+  }
 
   initSlider() {
     $(function () {
@@ -39,7 +39,7 @@ class App {
   }
 
   afterVideoPlay() {
-    const vidoWrapper = document.querySelector('.promo__video')
+    const vidoWrapper = document.querySelector('.video__video')
 
     const onPlay = () => {
       vidoWrapper.style.borderRadius = 'unset';

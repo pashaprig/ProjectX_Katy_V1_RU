@@ -1,0 +1,44 @@
+.video__heading {
+  max-width: 70%;
+
+  @media (max-width: $tablet-width) {
+    max-width: unset;
+    font-size: 35px;
+  }
+}
+
+.video__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.video__text,
+.video__video {
+  width: 50%;
+
+  @media (max-width: $tablet-width) {
+    width: 100%;
+  }
+}
+
+.video__video {
+  margin-top: -50px;
+  position: relative;
+  background-color: ;
+
+  @media (max-width: $tablet-width) {
+    margin-top: unset;
+    margin-left: -20px;
+    width: calc(100% + 40px);
+  }
+}
+
+.veideo__about {
+  max-width: 400px;
+  margin-bottom: 30px;
+}

@@ -88,6 +88,18 @@ button {
     opacity: 0.8;
   }
 
+  &--transpanent {
+    width: fit-content;
+    padding: 10px 17px;
+    border: 1px solid $main-color;
+    background: transparent;
+
+    &:hover {
+      background: $main-color;
+      box-shadow: none;
+    }
+  }
+
   .btn__arrow {
     display: flex;
     align-items: center;
@@ -97,6 +109,29 @@ button {
     fill: none;
     background: $basic-white;
     border-radius: 50%;
+  }
+}
+
+#button-play {
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: $main-color;
+  border: none;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+
+  @media (max-width: $tablet-width) {
+    top: 30%;
   }
 }
 

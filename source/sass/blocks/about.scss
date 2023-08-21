@@ -13,6 +13,12 @@
   }
 }
 
+.about__heading {
+  @media (max-width: $tablet-width) {
+    padding: 0 20px;
+  }
+}
+
 .about__wrapper {
   @media (max-width: $tablet-width) {
     padding: 30px 20px;
@@ -59,7 +65,7 @@
 
 .about__img-wrapper {
   @media (max-width: $tablet-width) {
-    background: $page-bcg no-repeat url("../img/bcg/about-img-bcg-mob.webp");
+    background: $page-bcg no-repeat 100% 30% url("../img/bcg/about-img-bcg-mob.webp");
 
     picture {
       display: flex;
