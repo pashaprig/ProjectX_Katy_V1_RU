@@ -1,0 +1,7 @@
+.come-on-footer-bcg {
+  background: no-repeat 100% 132% url("../img/bcg/come-on-footer-bcg.webp");
+
+  @media (max-width: $tablet-width) {
+    background: no-repeat 100% 100% url("../img/bcg/come-on-footer-bcg-mob.webp");
+  }
+}

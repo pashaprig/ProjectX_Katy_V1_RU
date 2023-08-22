@@ -9,6 +9,14 @@
   }
 }
 
+.review__heading {
+  max-width: 65%;
+
+  @media (max-width: $tablet-width) {
+    max-width: unset;
+  }
+}
+
 .review__about {
   margin-bottom: 30px;
   max-width: 41%;
